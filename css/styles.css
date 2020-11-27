@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "El Messiri", sans-serif;
+}
+
+/*16px = 100% = 1em*/
+h1 {
+  margin: 80px auto 0 auto;
+  font-family: "Great Vibes", cursive;
+  font-size: 7rem; /*Root size, ignores parent size inheritance*/
+  color: #11999e;
+}
+
+#subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #118c91;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  color: #376d6e;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #62b3b6;
+}
+
+a:visited,
+a:link {
+  text-decoration: none;
+  color: #a7d8d6;
+  margin: 40px;
+  font-size: 2rem;
+}
+
+a:hover {
+  color: ghostwhite;
+}
+
+hr {
+  width: 10%;
+  color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+}
+
+.TopContainer {
+  background-color: #dff4f3;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 40px auto;
+}
+
+.bottom-container {
+  margin-top: 30px;
+  background-color: #5a8381;
+  height: 100px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 150px;
+  right: 250px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 250px;
+}
+
+.intro {
+  margin: auto;
+}
+
+.skills {
+  margin: 70px auto;
+}
+
+.skill-row {
+  margin: 70px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.cpp-img {
+  float: left;
+  margin-right: 30px;
+  width: 20%; /*It becomes 20% of the 50% of its parent*/
+}
+
+.sql-img {
+  float: right;
+  margin-right: 30px;
+  width: 20%;
+}
+
+.profile-img {
+  width: 35%;
+}
+
+.profile {
+  width: 30%;
+  margin: 70px auto;
+}
+
+.contact-me {
+  margin: 70px auto 0;
+}
+
+.contact-msg {
+  width: 30%;
+  margin: 50px auto;
+}
+
+.footer {
+  font-size: 0.8rem;
+  padding: 20px auto 0;
+}
+
+.btn {
+  background-color: #5a9fa0;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 16px;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #134e50;
+  box-shadow: 5px 5px 10px 2px rgba(38, 39, 39, 0.2)
+}
